@@ -1,0 +1,83 @@
+{
+	"title": "Home page",
+	"heroSection": {
+		"title": "Africa to the World",
+		"description": "The best seats in the most iconic music venues across the globe, join uduX as we livestream Africa’s brightest in music as they continue to conquer the world.",
+		"ctaButton": {
+			"text": "See Events",
+			"href": "https://login.feature.fm/signup/"
+		},
+		"bgImages": {
+			"img": "images/hero_bg/bg.png",
+			"imgMob": "images/hero_bg/bg_mob.png"
+		},
+		"sliderImages": [
+			{
+				"img": "images/carousel/1.png",
+				"webp": "images/carousel/1.webp",
+				"img2x": "images/carousel/1@2x.png",
+				"webp2x": "images/carousel/1@2x.webp",
+				"imgMob": "images/carousel/1_mob.png",
+				"imgMob2x": "images/carousel/1_mob@2x.png",
+				"webpMob": "images/carousel/1_mob.webp",
+				"webpMob2x": "images/carousel/1_mob@2x.webp"
+			},
+			{
+				"img": "images/carousel/2.png",
+				"webp": "images/carousel/2.webp",
+				"img2x": "images/carousel/2@2x.png",
+				"webp2x": "images/carousel/2@2x.webp",
+				"imgMob": "images/carousel/2_mob.png",
+				"imgMob2x": "images/carousel/2_mob@2x.png",
+				"webpMob": "images/carousel/2_mob.webp",
+				"webpMob2x": "images/carousel/2_mob@2x.webp"
+			},
+			{
+				"img": "images/carousel/3.png",
+				"webp": "images/carousel/3.webp",
+				"img2x": "images/carousel/3@2x.png",
+				"webp2x": "images/carousel/3@2x.webp",
+				"imgMob": "images/carousel/3_mob.png",
+				"imgMob2x": "images/carousel/3_mob@2x.png",
+				"webpMob": "images/carousel/3_mob.webp",
+				"webpMob2x": "images/carousel/3_mob@2x.webp"
+			},
+			{
+				"img": "images/carousel/4.png",
+				"webp": "images/carousel/4.webp",
+				"img2x": "images/carousel/4@2x.png",
+				"webp2x": "images/carousel/4@2x.webp",
+				"imgMob": "images/carousel/4_mob.png",
+				"imgMob2x": "images/carousel/4_mob@2x.png",
+				"webpMob": "images/carousel/4_mob.webp",
+				"webpMob2x": "images/carousel/4_mob@2x.webp"
+			},
+			{
+				"img": "images/carousel/5.png",
+				"webp": "images/carousel/5.webp",
+				"img2x": "images/carousel/5@2x.png",
+				"webp2x": "images/carousel/5@2x.webp",
+				"imgMob": "images/carousel/5_mob.png",
+				"imgMob2x": "images/carousel/5_mob@2x.png",
+				"webpMob": "images/carousel/5_mob.webp",
+				"webpMob2x": "images/carousel/5_mob@2x.webp"
+			}
+		]
+	},
+	"broughtSection": {
+		"title": "Brought to you by",
+		"description": [
+			"Africa to the World is a movement pioneered by uduX - Africa’s first indigenous music platform.",
+			"For us this platform is the express path to a global audience. From Africa to the world and back to Africa.",
+			"We want you to experience alongside Africa’s biggest stars, powered by the belief that - One day you’ll be the master of your own stage."
+		],
+		"bgPicture": {
+			"img": "images/brought/bg.png",
+			"imgMob": "images/brought/bg_mob.png"
+		},
+		"contentPicture": {
+			"img": "images/brought/wooman.jpg"
+		}
+	},
+	"meta": {}
+}
