@@ -1,0 +1,55 @@
+@import '../../../styles/helpers/helpers-all.scss';
+
+.button {
+	position: relative;
+	z-index: 1;
+
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+
+	font-family: var(--font-baguede);
+	text-align: center;
+	line-height: normal;
+	white-space: nowrap;
+	overflow: hidden;
+	text-decoration: none;
+
+	cursor: pointer;
+
+	transition: opacity 0.3s ease;
+
+	&:hover,
+	&:focus {
+		opacity: 0.8;
+	}
+
+	&.button--primary_variant {
+		color: var(--light);
+		background-color: var(--primary-color-2);
+	}
+
+	&.button--secondary_variant {
+		color: var(--light);
+		background-color: var(--primary-color);
+	}
+
+	&.button--base_size {
+		letter-spacing: -0.04em;
+
+		@include bp($tablet_max, min) {
+			height: 5.6rem;
+			padding: 0 4.9rem;
+			font-size: 2rem;
+		}
+		@include bp($tablet_max - 1) {
+			height: 4.1rem;
+			padding: 0 2.2rem;
+			font-size: 1.4rem;
+		}
+	}
+
+	&.button--width_full {
+		width: 100%;
+	}
+}

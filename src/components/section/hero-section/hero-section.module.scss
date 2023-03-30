@@ -1,0 +1,98 @@
+@import '../../../styles/helpers/helpers-all.scss';
+
+.hero {
+	overflow: hidden;
+	position: relative;
+
+	@include bp($tablet_max, min) {
+		--side-offset: 6rem;
+		padding: calc(var(--height-header) + 4.6rem) var(--side-offset) 0;
+	}
+	@include bp($tablet_max - 1) {
+		--side-offset: var(--gl-hr-indent);
+		padding: calc(var(--height-header) + 2.8rem) var(--side-offset) 0;
+	}
+}
+
+.hero__bg {
+	z-index: 1;
+	position: absolute;
+	left: 0;
+	top: var(--height-header);
+	right: 0;
+	opacity: 0.05;
+
+	mix-blend-mode: luminosity;
+	pointer-events: none;
+
+	@include bp($tablet_max, min) {
+		bottom: 0;
+	}
+	@include bp($tablet_max - 1) {
+		bottom: 8.2rem;
+	}
+}
+
+.hero__heading {
+	position: relative;
+	margin: 0 auto;
+	max-width: 95.6rem;
+	text-align: center;
+
+	@include bp($tablet_max - 1) {
+		padding: 0 1rem;
+	}
+
+	@include bp($tablet_max, min) {
+		&:not(:last-child) {
+			margin-bottom: 4.4rem;
+		}
+	}
+	@include bp($tablet_max - 1) {
+		&:not(:last-child) {
+			margin-bottom: 4.6rem;
+		}
+	}
+}
+
+.hero__title {
+	@include bp($tablet_max, min) {
+		&:not(:last-child) {
+			margin-bottom: 1rem;
+		}
+	}
+	@include bp($tablet_max - 1) {
+		&:not(:last-child) {
+			margin-bottom: 1.4rem;
+		}
+	}
+}
+
+.hero__descr {
+	@include bp($tablet_max, min) {
+		&:not(:last-child) {
+			margin-bottom: 3.8rem;
+		}
+	}
+	@include bp($tablet_max - 1) {
+		&:not(:last-child) {
+			margin-bottom: 2.4rem;
+		}
+	}
+}
+
+.hero__button {
+	@include flex_block(row, wrap, center, center, center);
+}
+
+.hero__content {
+	position: relative;
+
+	@include bp($tablet_max, min) {
+		font-size: calc((100vw - var(--side-offset) * 2) / 1920 * 10);
+	}
+	@include bp($tablet_max - 1) {
+		font-size: calc((100vw - var(--side-offset) * 2) / 390 * 10);
+	}
+	// font-size: 10px;
+}

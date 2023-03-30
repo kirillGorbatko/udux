@@ -1,0 +1,83 @@
+@import 'reset';
+@import '../helpers/helpers-all.scss';
+
+//------------------------------------------------------------base styles
+:root {
+	--full-screen: calc(var(--vh, 1vh) * 100);
+
+	--font-baguede: 'Baguede';
+	--font-bw-modelica: 'BwModelica';
+
+	--light: #fff;
+	--dark: #000;
+	--primary-color: #d07649;
+	--primary-color-2: #939a5f;
+	--primary-color-3: #f2ac2a;
+
+	--height-footer: 10rem;
+
+	@include bp($tablet_max, min) {
+		--height-header: 12.2rem;
+		--gl-hr-indent: 9.3rem;
+	}
+
+	@include bp($tablet_max - 1) {
+		--height-header: 6.3rem;
+		--gl-hr-indent: 2.7rem;
+	}
+}
+
+html {
+	height: 100%;
+
+	font-family: var(--font-baguede);
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 1.33;
+}
+
+body {
+	position: relative;
+
+	display: flex;
+	height: 100%;
+
+	font-size: 1.6rem;
+	color: var(--light);
+
+	-webkit-text-size-adjust: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	background-color: var(--dark);
+
+	@supports (display: grid) {
+		display: block;
+	}
+}
+
+.wrapper {
+	position: relative;
+
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	height: auto !important;
+
+	overflow-x: hidden;
+}
+
+.base {
+	width: 100%;
+	position: relative;
+	padding: var(--height-header) 0 0;
+
+	flex: 1 0 auto;
+}
+
+.section {
+	padding: 3rem var(--gl-hr-indent);
+}
+
+//------------------------------------------------------------base styles###

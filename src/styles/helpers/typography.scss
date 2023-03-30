@@ -1,0 +1,10 @@
+@mixin title {
+	letter-spacing: -0.034em;
+	@include bp($tablet_max, min) {
+		font-size: 5.4rem;
+	}
+
+	@include bp($tablet_max - 1) {
+		font-size: 3.2rem;
+	}
+}

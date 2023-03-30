@@ -1,0 +1,22 @@
+@import '../../../styles/helpers/helpers-all.scss';
+.carousel {
+	font-size: 1em;
+	user-select: none;
+}
+
+.carousel__inner {
+	overflow: visible;
+}
+
+.carousel__card {
+	clip-path: inset(2px);
+
+	@include bp($tablet_max, min) {
+		height: 61.8em;
+		width: 50.8em;
+	}
+	@include bp($tablet_max - 1) {
+		height: 42.4em;
+		width: 33em;
+	}
+}

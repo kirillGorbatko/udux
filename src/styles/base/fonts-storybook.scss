@@ -1,0 +1,53 @@
+@font-face {
+	font-family: 'BagueDe';
+	src: url('/public/fonts/Baguede-Regular.woff2') format('woff2'),
+		url('/public/fonts/Baguede-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'BagueDe';
+	src: url('/public/fonts/Baguede-Italic.woff2') format('woff2'),
+		url('/public/fonts/Baguede-Italic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'BwModelica';
+	src: url('/public/fonts/BwModelica-Regular.woff2') format('woff2'),
+		url('/public/fonts/BwModelica-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'BwModelica';
+	src: url('/public/fonts/BwModelica-RegularItalic.woff2') format('woff2'),
+		url('/public/fonts/BwModelica-RegularItalic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'BwModelica';
+	src: url('/public/fonts/BwModelica-Medium.woff2') format('woff2'),
+		url('/public/fonts/BwModelica-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'BwModelica';
+	src: url('/public/fonts/BwModelica-MediumItalic.woff2') format('woff2'),
+		url('/public/fonts/BwModelica-MediumItalic.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}

@@ -1,0 +1,1 @@
+export type PromiseStatus = 'idle' | 'pending' | 'fulfilled' | 'rejected';
